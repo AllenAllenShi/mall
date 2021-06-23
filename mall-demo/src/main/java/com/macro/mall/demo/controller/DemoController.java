@@ -33,7 +33,7 @@ public class DemoController {
     public CommonResult<List<PmsBrand>> getBrandList() {
         return CommonResult.success(demoService.listAllBrand());
     }
-
+    //test comment
     @ApiOperation(value = "添加品牌")
     @RequestMapping(value = "/brand/create", method = RequestMethod.POST)
     @ResponseBody
